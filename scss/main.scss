@@ -1,0 +1,135 @@
+@import "boxes";
+@import "inputs";
+
+@mixin inputstyle(
+  $input-border,
+  $input-width,
+  $input-fontsize,
+  $input-margin,
+  $input-padding
+) {
+  border: $input-border;
+  width: $input-width;
+  font-size: $input-fontsize;
+  margin: $input-margin;
+  padding: $input-padding;
+}
+main {
+  .section-nosotros {
+    margin: 250px 0 250px 0;
+  }
+  .box-nosotros {
+    background-color: $box-color;
+    border-radius: 3px 10px 10px 3px;
+    box-shadow: 3px 2px 10px black;
+  }
+  .textos-nosotros {
+    padding: 7px;
+    text-shadow: 3px 3px 4px black;
+    font-size: 40px;
+    font-weight: lighter;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    width: 90vw;
+    margin: 30px;
+    align-content: flex-start;
+  }
+  .textos-nosotros__div--h2 {
+    width: 100%;
+    h2 {
+      @extend .textos-nosotros;
+      margin-left: 35px;
+    }
+  }
+  .textos-nosotros__div--p {
+    width: 100%;
+    p {
+      @extend .textos-nosotros;
+      font-size: 0.6em;
+      padding-right: 80px;
+      margin-bottom: 70px;
+    }
+  }
+  /**********CONTACTO*************/
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+  .flex-container {
+    background-color: rgb(48, 48, 48);
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container__input--titulo {
+    font-size: 35px;
+    margin: 7px;
+    text-shadow: 2px 2px 2px black;
+    font-weight: lighter;
+  }
+
+  .flex-container__input {
+    font-family: $inputbtn-font;
+    border-radius: 5px;
+    @include inputstyle(none, 100%, 0.8em, 10px 0 10px 0, 5px);
+    resize: none;
+  }
+  .flex-container__input--btn {
+    background-color: gray;
+    border: none;
+    font-family: $inputbtn-font;
+    border-radius: 3px;
+    width: 75%;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+  .flex-container__input--btn:hover {
+    color: rgb(83, 216, 150);
+    background-color: rgb(26, 26, 26);
+    transform: translate(0, 5px);
+  }
+}
+@media only screen and (max-width: 414px) {
+  main {
+    .section-nosotros {
+      margin: 100px 0 100px 0;
+    }
+    .textos-nosotros {
+      padding: 7px;
+      text-shadow: 3px 3px 4px black;
+      font-size: 40px;
+      font-weight: lighter;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: start;
+      width: 80vw;
+      margin: 30px;
+      align-content: flex-start;
+    }
+    .textos-nosotros__div--h2 {
+      h2 {
+        margin: 0;
+        padding: 20px;
+        font-size: 25px;
+      }
+    }
+    .textos-nosotros__div--p {
+      p {
+        padding: 20px;
+        margin: 0;
+        font-size: 0.3em;
+      }
+    }
+  }
+}
