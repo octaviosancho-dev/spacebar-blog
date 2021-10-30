@@ -1,0 +1,10 @@
+$assetPath: "/img";
+$bg-color: rgb(48, 48, 48);
+$bg-image: url(#{$assetPath}/background.png);
+$bg-nosotros: url(#{$assetPath}/backgroundnos.jpg);
+$bg-contacto: url(#{$assetPath}/fondoContacto.png);
+$bg-repeat: no-repeat;
+$bg-attachment: fixed;
+$bg-size: cover;
+$body-family: "Poppins", sans-serif;
+$family-color: white;
