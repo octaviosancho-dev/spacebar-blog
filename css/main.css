@@ -963,7 +963,7 @@ body footer .footer-container__section--nav a:hover {
   }
 }
 
-@media only screen and (max-width: 840px) and (min-width: 414px) {
+@media only screen and (max-width: 840px) and (min-width: 550px) {
   body header {
     /*Estilos propios agregados a Bootstrap*/
   }
@@ -1303,7 +1303,7 @@ body footer .footer-container__section--nav a:hover {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 550px) {
   body header {
     /*Estilos propios agregados a Bootstrap*/
   }
