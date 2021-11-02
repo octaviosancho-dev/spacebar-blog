@@ -27,6 +27,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 /*Las clases backgroundNosotros y contact-body tuve que dejarla afuera del body para que funcione y no entendi porque sucedia esto*/
 .backgroundNosotros {
   background-image: $bg-nosotros;
@@ -83,7 +86,7 @@ body {
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
-      margin-top: 120px;
+      margin-top: 100px;
     }
     .mainIndex-section__div {
       font-size: 25px;
@@ -275,7 +278,7 @@ body {
     }
     /*SECCION ENSAMBLADO*/
     .textos-ensamblado {
-      width: 99vw;
+      width: 100%;
       display: flex;
       flex-flow: column wrap;
     }
@@ -372,7 +375,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 800px;
+      height: 80vh;
     }
     .flex-container {
       background-color: rgb(48, 48, 48);
@@ -743,7 +746,7 @@ body {
     main {
       /*SECCION INICIO*/
       .mainIndex-section {
-        height: 700px;
+        height: 50vh;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
@@ -768,8 +771,8 @@ body {
         margin: 40px;
 
         iframe {
-          width: 427px;
-          height: 240px;
+          width: 555px;
+          height: 312px;
           justify-self: center;
         }
       }
@@ -930,13 +933,13 @@ body {
       }
       /*SECCION ENSAMBLADO*/
       .textos-ensamblado {
-        width: 90vw;
+        width: 100%;
         display: flex;
         flex-flow: column wrap;
       }
       .textos-ensamblado__divtexto {
         background-color: rgb(77, 77, 77);
-        width: 95%;
+        width: 90%;
         margin: 20px;
         margin-top: 80px;
         padding: 20px;
@@ -961,7 +964,7 @@ body {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        width: 95vw;
+        width: 100%;
       }
       .textos-ensamblado__divimg {
         img {
@@ -975,7 +978,7 @@ body {
         flex-flow: column wrap;
         justify-content: space-around;
         align-items: center;
-        width: 95vw;
+        width: 100%;
       }
       .textos-ensamblado__divmedia--h2 {
         margin: 30px 0 60px 0;
@@ -985,8 +988,8 @@ body {
         text-align: center;
       }
       .textos-ensamblado__divmedia--iframe {
-        width: 428px;
-        height: 242px;
+        width: 556px;
+        height: 315px;
         border-radius: 15px;
         box-shadow: 2px 1px 10px black;
         margin-bottom: 60px;
@@ -1034,8 +1037,8 @@ body {
       .mainIndex-section__div--video {
         margin: 15px 0;
         iframe {
-          width: 272px;
-          height: 152px;
+          width: 327px;
+          height: 183px;
         }
       }
       .mainIndex-section__div--btn {
@@ -1207,13 +1210,13 @@ body {
       }
       /*SECCION ENSAMBLADO*/
       .textos-ensamblado {
-        width: 90vw;
+        width: 100%;
         display: flex;
         flex-flow: column wrap;
       }
       .textos-ensamblado__divtexto {
         background-color: rgb(77, 77, 77);
-        width: 95%;
+        width: 90%;
         margin: 20px;
         margin-top: 80px;
         padding: 20px;
@@ -1238,7 +1241,7 @@ body {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        width: 99vw;
+        width: 100%;
       }
       .textos-ensamblado__divimg {
         img {
@@ -1253,7 +1256,7 @@ body {
         flex-flow: column wrap;
         justify-content: space-around;
         align-items: center;
-        width: 99vw;
+        width: 100%;
       }
       .textos-ensamblado__divmedia--h2 {
         margin: 30px 0 60px 0;

@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 /*Las clases backgroundNosotros y contact-body tuve que dejarla afuera del body para que funcione y no entendi porque sucedia esto*/
 .backgroundNosotros {
   background-image: url(/img/backgroundnos.jpg);
@@ -80,7 +84,7 @@ body main .mainIndex-section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 body main .mainIndex-section__div {
@@ -368,7 +372,7 @@ body main .main-sizes__h3 {
 }
 
 body main .textos-ensamblado {
-  width: 99vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -526,7 +530,7 @@ body main .contact-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 800px;
+  height: 80vh;
 }
 
 body main .flex-container {
@@ -979,7 +983,7 @@ body footer .footer-container__section--nav a:hover {
     /*SECCION ENSAMBLADO*/
   }
   body main .mainIndex-section {
-    height: 700px;
+    height: 50vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
@@ -1013,8 +1017,8 @@ body footer .footer-container__section--nav a:hover {
     margin: 40px;
   }
   body main .mainIndex-section__div--video iframe {
-    width: 427px;
-    height: 240px;
+    width: 555px;
+    height: 312px;
     -ms-grid-column-align: center;
         justify-self: center;
   }
@@ -1212,7 +1216,7 @@ body footer .footer-container__section--nav a:hover {
     font-size: 20px;
   }
   body main .textos-ensamblado {
-    width: 90vw;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1223,7 +1227,7 @@ body footer .footer-container__section--nav a:hover {
   }
   body main .textos-ensamblado__divtexto {
     background-color: #4d4d4d;
-    width: 95%;
+    width: 90%;
     margin: 20px;
     margin-top: 80px;
     padding: 20px;
@@ -1263,7 +1267,7 @@ body footer .footer-container__section--nav a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 95vw;
+    width: 100%;
   }
   body main .textos-ensamblado__divimg img {
     border-radius: 15px;
@@ -1284,7 +1288,7 @@ body footer .footer-container__section--nav a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 95vw;
+    width: 100%;
   }
   body main .textos-ensamblado__divmedia--h2 {
     margin: 30px 0 60px 0;
@@ -1294,8 +1298,8 @@ body footer .footer-container__section--nav a:hover {
     text-align: center;
   }
   body main .textos-ensamblado__divmedia--iframe {
-    width: 428px;
-    height: 242px;
+    width: 556px;
+    height: 315px;
     border-radius: 15px;
     -webkit-box-shadow: 2px 1px 10px black;
             box-shadow: 2px 1px 10px black;
@@ -1357,8 +1361,8 @@ body footer .footer-container__section--nav a:hover {
     margin: 15px 0;
   }
   body main .mainIndex-section__div--video iframe {
-    width: 272px;
-    height: 152px;
+    width: 327px;
+    height: 183px;
   }
   body main .mainIndex-section__div--btn {
     width: 50vw;
@@ -1573,7 +1577,7 @@ body footer .footer-container__section--nav a:hover {
     font-size: 15px;
   }
   body main .textos-ensamblado {
-    width: 90vw;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1584,7 +1588,7 @@ body footer .footer-container__section--nav a:hover {
   }
   body main .textos-ensamblado__divtexto {
     background-color: #4d4d4d;
-    width: 95%;
+    width: 90%;
     margin: 20px;
     margin-top: 80px;
     padding: 20px;
@@ -1624,7 +1628,7 @@ body footer .footer-container__section--nav a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 99vw;
+    width: 100%;
   }
   body main .textos-ensamblado__divimg img {
     border-radius: 15px;
@@ -1646,7 +1650,7 @@ body footer .footer-container__section--nav a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 99vw;
+    width: 100%;
   }
   body main .textos-ensamblado__divmedia--h2 {
     margin: 30px 0 60px 0;
